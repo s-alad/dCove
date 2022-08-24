@@ -1,0 +1,178 @@
+.dark2 {
+  background-color: #161412;
+}
+
+.dark {
+  background-color: #161819;
+}
+
+.creme {
+  background-color: #c7bdb1;
+}
+
+* {
+  font-family: Roboto;
+}
+
+.interface {
+  box-sizing: border-box;
+  width: 100%;
+  flex-grow: 1;
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+  background-color: #c7bdb1;
+  font-family: Roboto;
+  padding: 84px;
+  justify-content: center;
+  display: flex;
+  transition: all 2s;
+}
+.interface .signupin {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Roboto;
+}
+.interface .signupin .close {
+  position: absolute;
+  right: 60px;
+  top: 40px;
+  width: 50px;
+  height: 50px;
+}
+.interface .signupin .title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+.interface .signupin .signput {
+  margin-bottom: 14px;
+  width: 300px;
+}
+.interface .signupin .signput .tip {
+  font-size: 14px;
+  text-align: start;
+  padding-left: 8px;
+  padding-bottom: 4px;
+}
+.interface .signupin .signput input {
+  box-sizing: border-box;
+  border-radius: 12px;
+  height: 42px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #161819;
+  /* color: white; */
+  padding: 10px;
+}
+.interface .signupin .disclaimer {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+  width: 300px;
+}
+.interface .signupin button {
+  box-sizing: border-box;
+  background-color: #161819;
+  border: 2px solid #161819;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.interface .signupin .google button {
+  background-color: white;
+  color: #161819;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.interface .signupin .google img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+.interface .signupin .seperate {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 3px;
+  background-color: #161819;
+}
+.interface .violate {
+  height: 340px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-content: space-between;
+}
+.interface .violate button {
+  cursor: pointer;
+  border-radius: 12px;
+  border: transparent;
+  background-color: #161819;
+  color: white;
+  font-size: 22px;
+  height: 52px;
+  width: 180px;
+}
+.interface .violate button:hover {
+  color: #c7bdb1;
+}
+.interface .violate .punchline {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  color: #161819;
+}
+.interface .violate .punchline .punch {
+  font-size: 42px;
+  font-weight: bold;
+}
+.interface .violate .punchline .line {
+  font-size: 21px;
+}
+.interface .workspace {
+  width: 600px;
+  height: 400px;
+  background-color: #161819;
+  border-radius: 12px;
+  border: 6px solid #161819;
+  transition: all 0.4s ease-in-out;
+}
+.interface .worked {
+  width: 50% !important;
+  height: 100% !important;
+}
+.interface .unwork {
+  width: 600px !important;
+  height: 400px !important;
+}
+
+.lofigirl {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  object-fit: cover;
+  background: url("../shared/assets/lofigirl1.jpg") no-repeat center center;
+}
+
+.lofigirl1 {
+  border-radius: 12px;
+  width: 600px;
+  height: 400px;
+  background-size: contain;
+  object-fit: cover;
+  background: url("../shared/assets/lofigirl1.jpg") no-repeat center center;
+}
+
+/*# sourceMappingURL=interface.css.map */

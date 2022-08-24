@@ -1,0 +1,96 @@
+.dark2 {
+  background-color: #161412;
+}
+
+.dark {
+  background-color: #161819;
+}
+
+.creme {
+  background-color: #c7bdb1;
+}
+
+.robotoR {
+  font-family: "Roboto", sans-serif;
+}
+
+.mini {
+  height: 0px !important;
+  visibility: hidden;
+}
+
+.terminal {
+  transition: height 0.5s ease-in-out;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 28px;
+  width: 100%;
+  font-family: Roboto;
+  transition: height 0.5s ease-in-out;
+}
+.terminal-header .search {
+  height: 34px;
+  border: 2px solid white;
+  display: flex;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 12px;
+}
+.terminal-header .testlet {
+  color: white;
+  font-size: 52px;
+}
+.terminal-header input {
+  width: 240px;
+  background-color: transparent;
+  border-radius: 12px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  border: transparent;
+  outline: none;
+  resize: none;
+}
+.terminal-header button {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+}
+.terminal-header .signuporin {
+  width: 170px;
+  /*  background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+.terminal-header .signup {
+  border: 2px solid white;
+  color: #161819;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #c7bdb1 !important;
+}
+.terminal-header .signup:hover {
+  transition: color 0.13s ease-in-out;
+  color: white !important;
+}
+.terminal-header .signin {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid white;
+}
+.terminal-header .signin:hover {
+  transition: color 0.13s ease-in-out;
+  color: #c7bdb1 !important;
+}
+
+/*# sourceMappingURL=terminal.css.map */
+
+/*# sourceMappingURL=terminal.css.map */

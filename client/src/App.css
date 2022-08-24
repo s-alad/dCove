@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.terminal {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+

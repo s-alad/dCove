@@ -1,0 +1,87 @@
+@use '../shared/palette.scss';
+@use '../shared/fonts/fonts.css';
+
+.mini {
+    height: 0px !important;
+    visibility: hidden;
+}
+
+.terminal {
+    transition: height .5s ease-in-out;
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 100%;
+    font-family: Roboto;
+    transition: height .5s ease-in-out;
+
+    .search {
+        height: 34px;
+        border: 2px solid white;
+        display: flex;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 12px;
+    }
+    .testlet {
+        color: white;
+        font-size: 52px;
+    }
+
+    input {
+        width: 240px;
+        background-color: transparent;
+        border-radius: 12px;
+        color: white;
+        font-family: Roboto, sans-serif;
+        border: transparent;
+        outline: none;
+        resize: none;
+    }
+    
+    button {
+        background-color: transparent;
+        color: white;
+        border: transparent;
+    }
+    .signuporin {
+        width: 170px;
+       /*  background-color: red; */
+        display: flex;
+        justify-content: space-between;
+    }
+    @mixin signbtn {
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    @mixin signtransition {
+        transition: color .13s ease-in-out;
+    }
+    .signup {
+        border: 2px solid white;
+        color: palette.$dark;
+        @include signbtn();
+        background-color: palette.$creme !important;
+        &:hover {
+            @include signtransition();
+            color: white !important;
+        }
+    }
+    .signin {
+        @include signbtn();
+        border: 2px solid white;
+        &:hover {
+            @include signtransition();
+            color: palette.$creme !important;
+        }
+    }
+}
+
+/*# sourceMappingURL=terminal.css.map */
